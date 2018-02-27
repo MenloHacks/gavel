@@ -22,7 +22,7 @@ keep us going <3**
 See the demo video
 [here](http://www.anishathalye.com/2016/09/19/gavel-an-expo-judging-system/)!
 
-## Users
+## Usersc
 
 See [here][users] for a list of events that have used Gavel in the past.
 
