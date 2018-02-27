@@ -1,6 +1,6 @@
 <img src="https://raw.githubusercontent.com/anishathalye/gavel/docs/banner.png" width="450" height="150" alt="Gavel banner">
 
-**Gavel** is a project expo judging system.
+**Gavel** is a project expo judging system. 
 
 Gavel was originally built for HackMIT and first used at HackMIT 2015. It has
 been used by [dozens][users] of other events since then.
