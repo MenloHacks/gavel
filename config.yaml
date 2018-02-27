@@ -74,7 +74,7 @@ timeout: null
 #
 # this is the welcome message that's shown to judges before they can start
 # using the system. the message is rendered as Markdown.
-welcome_message: """
+welcome_message: |
 Welcome to the MenloHacks judging system.
 
 **Please read this important message carefully before continuing.**
@@ -96,7 +96,6 @@ Gavel makes it really simple for you to submit votes, but please think hard
 before you vote. **Once you make a decision, you can't take it back**.
 
 Thank you for judging!
-"""
 
 # can't be specified via environment variable
 # defaults to gavel.constants.DEFAULT_CLOSED_MESSAGE
