@@ -51,10 +51,10 @@ function startTimer(duration, display) {
         minutes = minutes < 10 ? "0" + minutes : minutes;
         seconds = seconds < 10 ? "0" + seconds : seconds;
 
-        display.textContent = minutes + ":" + seconds;
-
-        if (--timer < 0) {
-            timer = duration;
+        if (minutes === 0 && seconds === 0) {
+          display.textContent = "Please move to the next project."
+        } else {
+          display.textContent = minutes + ":" + seconds;
         }
     }, 1000);
 }
