@@ -59,11 +59,9 @@ function startTimer(duration, display) {
     }, 1000);
 }
 
-window.onload = function () {
-    var threeMinutes = 60 * 3,
+var threeMinutes = 60 * 3,
         display = document.querySelector('#time');
-    startTimer(threeMinutes, display);
-};
+startTimer(threeMinutes, display);
 
   </script>
 {% endblock %}
