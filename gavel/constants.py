@@ -36,6 +36,8 @@ DEFAULT_EMAIL_SUBJECT = 'MenloHacks Judging Link'
 DEFAULT_EMAIL_BODY = '''
 Hi {name},
 
+Thank you for agreeing to judge MenloHacks!
+
 For the expo portion of judging, you'll use our judging system to record your decisions.
 
 To access the system, visit {link}. There's no need to do so until you arrive.
