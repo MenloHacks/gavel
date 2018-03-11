@@ -11,6 +11,7 @@ class Item(db.Model):
     id = db.Column(db.Integer, primary_key=True, nullable=False)
     name = db.Column(db.Text, nullable=False)
     location = db.Column(db.Text, nullable=False)
+    desired_prizes = db.Column(db.Text)
     description = db.Column(db.Text, nullable=False)
     active = db.Column(db.Boolean, default=True, nullable=False)
     viewed = db.relationship('Annotator', secondary=view_table)
@@ -19,12 +20,13 @@ class Item(db.Model):
     mu = db.Column(db.Float)
     sigma_sq = db.Column(db.Float)
 
-    def __init__(self, name, location, description):
+    def __init__(self, name, location, description, desired_prizes):
         self.name = name
         self.location = location
         self.description = description
         self.mu = crowd_bt.MU_PRIOR
         self.sigma_sq = crowd_bt.SIGMA_SQ_PRIOR
+        self.desired_prizes = desired_prizes
 
     @classmethod
     def by_id(cls, uid):
