@@ -31,20 +31,18 @@ Gavel makes it really simple for you to submit votes, but please think hard
 before you vote. **Once you make a decision, you can't take it back**.
 '''.strip()
 
-DEFAULT_EMAIL_SUBJECT = 'Welcome to Gavel!'
+DEFAULT_EMAIL_SUBJECT = 'MenloHacks Judging Link'
 
 DEFAULT_EMAIL_BODY = '''
 Hi {name},
 
-Welcome to Gavel, the online expo judging system. This email contains your
-magic link to the judging system.
+For the expo portion of judging, you'll use our judging system to record your decisions.
 
-DO NOT SHARE this email with others, as it contains your personal magic link.
+To access the system, visit {link}. There's no need to do so until you arrive.
 
-To access the system, visit {link}.
+Thank you,
 
-Once you're in, please take the time to read the welcome message and
-instructions before continuing.
+Thomas
 '''.strip()
 
 DEFAULT_CLOSED_MESSAGE = '''
